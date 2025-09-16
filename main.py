@@ -1,6 +1,6 @@
 import streamlit as st
 import pickle
-from sklearn.preprocessing import LabelEncoder
+
 import numpy as np
 
 model,le=pickle.load(open('crop_recommend.pkl','rb'))
